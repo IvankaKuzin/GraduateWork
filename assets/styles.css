@@ -1,0 +1,158 @@
+.Select-control {
+    background-color: black;
+}
+
+.Select-value{
+    background-color: black !important;
+}
+
+.Select-value-label {
+    color: white !important;
+}
+
+.VirtualizedSelectOption {
+    background-color: black;
+    color: white;
+}
+
+.VirtualizedSelectFocusedOption {
+    background-color: grey;
+    color: white;
+}
+
+#type-dropdown{
+    width: 215px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+
+.Tabs .Tab {
+    background-color: black ;
+    color: white ;
+}
+
+.Tabs .Tab--selected {
+    color: white !important;
+}
+
+.tab1 {
+    background-color: black !important;
+    color: white !important;
+    border: 2px solid #DEB887 !important;
+    font-size: 23px;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px #de9449;
+    font-family: "Georgia";
+}
+
+.tab1.custom-tab1--selected {
+    background-color: #DEB887 !important;
+    color: black !important;
+    border: 2px solid #DEB887 !important;
+}
+
+.tab2 {
+    background-color: black !important;
+    color: white !important;
+    border: 2px solid red !important;
+    background-image: url("netflix_logo.png");
+    background-size: auto 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    content: '';
+}
+
+.tab2.custom-tab2--selected {
+    background-color: red !important;
+    color: black !important;
+    border: 2px solid red !important;
+}
+
+.tab3 {
+    background-color: black !important;
+    color: white !important;
+    border: 2px solid orange !important;
+    background-image: url("amazon_logo.png");
+    background-size: auto 35%;
+    background-repeat: no-repeat;
+    background-position: center;
+    content: '';
+}
+
+.tab3.custom-tab3--selected {
+    background-color: orange !important;
+    color: black !important;
+    border: 2px solid orange !important;
+}
+
+.tab4 {
+    background-color: black !important;
+    color: white !important;
+    border: 2px solid blue !important;
+    background-image: url("dianey_logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    content: '';
+}
+
+.tab4.custom-tab4--selected {
+    background-color: blue !important;
+    color: black !important;
+    border: 2px solid blue !important;
+}
+
+
+
+H1{
+    color: white;
+    text-align: center;
+}
+
+H2{
+    color: white;
+    text-align: center;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.mainDiv{
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#dropdownDiv{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+#sliderDiv{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+#slider{
+    width: 400px;
+    font-size: 20px;
+}
+
+.range-slider .rc-slider-mark-text {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+#secondMenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
